@@ -16,7 +16,7 @@ class MovieCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        titleLabel.text.adjustsFontSizeToFitWidth = true
+        //titleLabel.text.adjustsFontSizeToFitWidth = true
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
