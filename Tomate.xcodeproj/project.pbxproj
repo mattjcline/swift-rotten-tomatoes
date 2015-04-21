@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433456885CB04D02A1DE3A0E /* libPods-Tomate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A248FF03040D3DB91392EE5C /* libPods-Tomate.a */; };
+		BC94BA5F1AE1C25A00216707 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94BA5E1AE1C25A00216707 /* MovieDetailsViewController.swift */; };
+		BC94BA611AE1C41E00216707 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC94BA601AE1C41E00216707 /* MoviesViewController.swift */; };
+		BCE127701AE1BA7E0042CFEE /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1276F1AE1BA7E0042CFEE /* MovieCell.swift */; };
 		BCFFDA451ADDECA300053AF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFDA441ADDECA300053AF4 /* AppDelegate.swift */; };
-		BCFFDA471ADDECA300053AF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFDA461ADDECA300053AF4 /* ViewController.swift */; };
 		BCFFDA4A1ADDECA300053AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFFDA481ADDECA300053AF4 /* Main.storyboard */; };
 		BCFFDA4C1ADDECA300053AF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFFDA4B1ADDECA300053AF4 /* Images.xcassets */; };
 		BCFFDA4F1ADDECA300053AF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFFDA4D1ADDECA300053AF4 /* LaunchScreen.xib */; };
@@ -26,16 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0531492A1A204F21E820D77A /* Pods-Tomate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tomate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tomate/Pods-Tomate.release.xcconfig"; sourceTree = "<group>"; };
+		A248FF03040D3DB91392EE5C /* libPods-Tomate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tomate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC94BA591AE1BF6900216707 /* Tomate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tomate-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC94BA5E1AE1C25A00216707 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		BC94BA601AE1C41E00216707 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../../../.Trash/MoviesViewController.swift; sourceTree = "<group>"; };
+		BCE1276F1AE1BA7E0042CFEE /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		BCFFDA3F1ADDECA300053AF4 /* Tomate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFFDA431ADDECA300053AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFFDA441ADDECA300053AF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCFFDA461ADDECA300053AF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCFFDA491ADDECA300053AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCFFDA4B1ADDECA300053AF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCFFDA4E1ADDECA300053AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BCFFDA541ADDECA300053AF4 /* TomateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFFDA591ADDECA300053AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFFDA5A1ADDECA300053AF4 /* TomateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomateTests.swift; sourceTree = "<group>"; };
+		FBB6745342106F5F694DA978 /* Pods-Tomate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tomate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tomate/Pods-Tomate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433456885CB04D02A1DE3A0E /* libPods-Tomate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +66,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E82EDD6D402858608F930A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBB6745342106F5F694DA978 /* Pods-Tomate.debug.xcconfig */,
+				0531492A1A204F21E820D77A /* Pods-Tomate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCBCC0711ADF288400DC9954 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1276F1AE1BA7E0042CFEE /* MovieCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BCF1BF411ADF2B5300558815 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC94BA601AE1C41E00216707 /* MoviesViewController.swift */,
+				BC94BA5E1AE1C25A00216707 /* MovieDetailsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		BCFFDA361ADDECA300053AF4 = {
 			isa = PBXGroup;
 			children = (
 				BCFFDA411ADDECA300053AF4 /* Tomate */,
 				BCFFDA571ADDECA300053AF4 /* TomateTests */,
 				BCFFDA401ADDECA300053AF4 /* Products */,
+				6E82EDD6D402858608F930A5 /* Pods */,
+				DD1446C016EE6F19D87966AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +115,14 @@
 		BCFFDA411ADDECA300053AF4 /* Tomate */ = {
 			isa = PBXGroup;
 			children = (
+				BCBCC0711ADF288400DC9954 /* Views */,
+				BCF1BF411ADF2B5300558815 /* ViewControllers */,
 				BCFFDA441ADDECA300053AF4 /* AppDelegate.swift */,
-				BCFFDA461ADDECA300053AF4 /* ViewController.swift */,
 				BCFFDA481ADDECA300053AF4 /* Main.storyboard */,
 				BCFFDA4B1ADDECA300053AF4 /* Images.xcassets */,
 				BCFFDA4D1ADDECA300053AF4 /* LaunchScreen.xib */,
 				BCFFDA421ADDECA300053AF4 /* Supporting Files */,
+				BC94BA591AE1BF6900216707 /* Tomate-Bridging-Header.h */,
 			);
 			path = Tomate;
 			sourceTree = "<group>";
@@ -112,6 +152,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DD1446C016EE6F19D87966AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A248FF03040D3DB91392EE5C /* libPods-Tomate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCFFDA5E1ADDECA300053AF4 /* Build configuration list for PBXNativeTarget "Tomate" */;
 			buildPhases = (
+				961187484B3471BA887A2C6B /* Check Pods Manifest.lock */,
 				BCFFDA3B1ADDECA300053AF4 /* Sources */,
 				BCFFDA3C1ADDECA300053AF4 /* Frameworks */,
 				BCFFDA3D1ADDECA300053AF4 /* Resources */,
+				E20D9CEF86AC691C1E291865 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +257,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		961187484B3471BA887A2C6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E20D9CEF86AC691C1E291865 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tomate/Pods-Tomate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCFFDA3B1ADDECA300053AF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCFFDA471ADDECA300053AF4 /* ViewController.swift in Sources */,
+				BC94BA5F1AE1C25A00216707 /* MovieDetailsViewController.swift in Sources */,
+				BC94BA611AE1C41E00216707 /* MoviesViewController.swift in Sources */,
 				BCFFDA451ADDECA300053AF4 /* AppDelegate.swift in Sources */,
+				BCE127701AE1BA7E0042CFEE /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,21 +423,28 @@
 		};
 		BCFFDA5F1ADDECA300053AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB6745342106F5F694DA978 /* Pods-Tomate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tomate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tomate/Tomate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BCFFDA601ADDECA300053AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0531492A1A204F21E820D77A /* Pods-Tomate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tomate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tomate/Tomate-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +501,7 @@
 				BCFFDA601ADDECA300053AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCFFDA611ADDECA300053AF4 /* Build configuration list for PBXNativeTarget "TomateTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +510,7 @@
 				BCFFDA631ADDECA300053AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
